@@ -1,0 +1,38 @@
+extends ../layout
+
+block styles
+	// Site stylesheet
+	link(rel='stylesheet', href='/app/styles/frontend.css')
+
+block content
+	.center-container
+		.panel
+			.bg
+			.bg-overlay
+			.content
+				form(method='POST')
+					input(type='hidden', name='_csrf', value=_csrf)
+
+					header= t("ResetPasswordTitle")
+						
+					.form-group
+						label(for='password')= t("NewPassword")
+						input.form-control(type='password', name='password', id='password', placeholder=t("NewPassword"), autofocus, required)
+					.form-group
+						label(for='confirm')= t("ConfirmPassword")
+						input.form-control(type='password', name='confirm', id='confirm', placeholder=t("ConfirmPassword"), required)
+
+					.flash
+						if messages.info
+							.alert.alert-success
+								for info in messages.info
+									div= info.msg
+						if messages.error
+							.alert.alert-danger
+								for error in messages.error
+									div= error.msg	
+					.form-group
+						button(type='submit')= t("ChangePassword")
+
+block scripts
+	script(src='/app/frontend.js')
