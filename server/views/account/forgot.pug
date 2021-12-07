@@ -1,0 +1,38 @@
+extends ../layout
+
+block styles
+	// Site stylesheet
+	link(rel='stylesheet', href='/app/styles/frontend.css')
+
+block content
+	.center-container
+		.panel
+			.bg
+			.bg-overlay
+			.content
+				form(method='POST')
+					input(type="hidden", name="_csrf" value=_csrf)
+
+					header= t("Forgot")
+
+					p= t("ForgotHint")
+
+					.form-group
+						label(for='email')= t("EmailSC")
+						input.form-control(type='email', name='email', id='email', placeholder=t("Email"), autofocus)
+
+					.flash
+						if messages.info
+							.alert.alert-success
+								for info in messages.info
+									div= info.msg
+						if messages.error
+							.alert.alert-danger
+								for error in messages.error
+									div= error.msg
+
+					.form-group
+						button(type="submit")= t("ResetPassword")
+
+block scripts
+	script(src='/app/frontend.js')
