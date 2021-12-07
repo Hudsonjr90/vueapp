@@ -1,0 +1,97 @@
+{
+	"Home": "Kezdőlap",
+	"Devices": "Eszközök",
+	"Posts": "Bejegyzések",
+	"Increment": "Növelés",
+	"Decrement": "Csökkentés",
+	"Logout": "Kijelentkezés",
+
+	"Save": "Mentés",
+	"Cancel": "Mégsem",
+	"Clone": "Klónozás",
+	"Delete": "Törlés",
+
+	"PostTitleCannotBeEmpty": "A bejegyzés címe nem lehet üres!",
+	"PostContentCannotBeEmpty": "A bejegyzés tartalma nem lehet üres!",
+	"PostNotFound": "Bejegyzés nem található!",
+	"InvalidPostID": "Hibás bejegyzés azonosító!",
+
+	"YouHaveAlreadyVotedThisPost": "Már szavaztál erre a bejegyzésre!",
+	"OnlyAuthorEditPost": "Csak a szerző módosíthatja a bejegyzést!",
+	"OnlyAuthorDeletePost": "Csak a szerző törölheti a bejegyzést!",
+	"YouAreNotTheOwner": "Nem te vagy a tulajdonos!",
+
+	"DeviceAdded": "Eszköz hozzáadva",
+	"DeviceUpdated": "Eszköz módosítva",
+	"DeviceDeleted": "Eszköz törölve",
+	"DeviceNotFound": "Az eszköz nem található!",
+
+	"DeviceNameAdded": "{{user.fullName}} létrehozta a(z) '{{data.name}}' eszközt!",
+	"DeviceNameUpdated": "{{user.fullName}} módosította a(z) '{{data.name}}' eszközt!",
+	"DeviceNameDeleted": "{{user.fullName}} törölte a(z) '{{data.name}}' eszközt!",
+
+	"DeviceNameCannotBeBlank": "Device name cannot be blank!",
+
+	"UserNotFound": "Felhasználó nem található!",
+
+	"ID": "ID",
+	"Type": "Típus",
+	"Address": "Cím",
+	"Name": "Név",
+	"Status": "Státusz",
+	"LastCommunication": "Utolsó kommunikáció",
+	"willBeGenerated": "<generálva lesz>",
+	"DeviceName": "Eszköz neve",
+	"Description": "Leírás",
+	"AddressOfDevice": "Az eszköz címe",
+	"Active": "Aktív",
+	"Inactive": "Inaktív",
+	"AddNewDevice": "Új eszköz",
+
+	"SelectedOfAll": "{{ selected }} kijelölve a {{ all }}-ból",
+	"Search3dots": "Keresés...",
+
+	"Hot": "Legjobb",	
+	"MostViewed": "Legtöbbet nézett",	
+	"New": "Új",	
+	"NewPost": "Új bejegyzés",	
+	"AllPosts": "Minden bejegyzés",	
+	"MyPosts": "Saját bejegyzések",	
+	"ViewsCount": " Megtekintések: {{count}}",	
+	"CreatedAgoByName": "Létrehozta {{name}} {{ago}}",
+	"EditedAgo": "Szerkesztve {{ago}}",	
+    "Voters": "Szavazók",
+    "LoadMore": "Mutass többet...",
+	
+		
+	"EditPost": "Bejegyzés szerkesztése",	
+	"DeletePost": "Bejegyzés törlése",	
+	"Title": "Cím",	
+	"TitleOfPost": "Bejegyzés címe",	
+	"Content": "Tartalom",	
+	"ContentOfPost": "Bejegyzés tartalma",	
+
+	"PostAdded": "Bejegyzés hozzáadva",
+	"PostUpdated": "Bejegyzés módosítva",
+	"PostDeleted": "Bejegyzés törölve",
+
+	"PostNameAdded": "{{user.fullName}} létrehozta a(z) '{{data.title}}' bejegyzést!",
+	"PostNameUpdated": "{{user.fullName}} módosította a(z) '{{data.title}}' bejegyzést!",
+	"PostNameDeleted": "{{user.fullName}} törölte a(z) '{{data.title}}' bejegyzést!",
+	"PostNameVoted": "{{user.fullName}} szavazott a(z) '{{data.title}}' bejegyzésre!",
+	"PostNameUnvoted": "{{user.fullName}} törölte a szavazatát a(z) '{{data.title}}' bejegyzésről!",
+
+	"InvalidCode": "Invalid code!",
+
+	"Demo": "Demó",
+
+	"General": "Általános",
+	"Profile": "Profil",
+	"MyAccount": "Fiókom",
+	"Settings": "Beállítások",
+	"Notifications": "Értesítések",
+	"Messages": "Üzenetek",
+	"MarkAllAsRead": "Mind elolvasva",
+	"SeeAllNotifications": "Összes értesítés",
+	"SeeAllMessages": "Összes üzenet"	
+}
